@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".SubscriptionActivity">
+
+    <Button
+        android:id="@+id/onemonth"
+        android:layout_width="match_parent"
+        android:background="@drawable/input_design"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:textColor="@android:color/white"
+        android:text="Subscription for one month"/>
+    <Button
+        android:id="@+id/threemonth"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/onemonth"
+        android:background="@drawable/input_design"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:textColor="@android:color/white"
+        android:text="Subscription for three month"/>
+    <Button
+        android:id="@+id/sixmonth"
+        android:layout_below="@+id/threemonth"
+        android:layout_width="match_parent"
+        android:background="@drawable/input_design"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:textColor="@android:color/white"
+        android:text="Subscription for six month"/>
+    <Button
+        android:layout_below="@+id/sixmonth"
+        android:id="@+id/oneyear"
+        android:layout_width="match_parent"
+        android:background="@drawable/input_design"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:textColor="@android:color/white"
+        android:text="Subscription for one year"/>
+</RelativeLayout>

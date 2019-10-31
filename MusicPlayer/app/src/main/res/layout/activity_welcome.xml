@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:text="THE"
+            android:layout_gravity="center"
+            android:layout_marginTop="220dp"
+            android:textSize="0sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/icon" />
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="R Player"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            />
+        <TextView
+            android:id="@+id/harness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Let music flow in your heart.."
+            android:textColor="@android:color/white"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+
+</LinearLayout>

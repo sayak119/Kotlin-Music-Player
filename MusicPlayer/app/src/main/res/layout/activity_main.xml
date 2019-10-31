@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    android:background="@drawable/grad8"
+    android:id="@+id/mainlayout"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:layout_marginTop="20dp"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       android:layout_marginBottom="20dp"
+       android:textColor="@android:color/white"
+       android:id="@+id/tokenmain"
+       android:layout_width="match_parent"
+       android:textAlignment="center"
+       android:layout_height="wrap_content" />
+
+
+
+   <androidx.recyclerview.widget.RecyclerView
+
+       android:layout_marginTop="20dp"
+       android:layout_marginRight="20dp"
+       android:layout_marginLeft="20dp"
+       android:layout_below="@+id/tokenmain"
+       android:id="@+id/recycler_view"
+       android:layout_width="match_parent"
+       android:layout_height="500dp">
+
+   </androidx.recyclerview.widget.RecyclerView>
+
+   <Button
+       android:layout_width="wrap_content"
+       android:background="@drawable/input_design"
+       android:textColor="@android:color/white"
+       android:layout_centerHorizontal="true"
+       android:padding="20dp"
+       android:id="@+id/showmore"
+       android:layout_alignParentBottom="true"
+       android:text="Unlock Next Song"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="30dp"/>
+
+</RelativeLayout>

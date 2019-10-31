@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/grad8"
+    android:layout_height="match_parent"
+    android:id="@+id/selectionlayout"
+    tools:context=".SelectionActivity">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Music Library"
+        android:textColor="@android:color/white"
+        android:id="@+id/h3"
+        android:textAlignment="center"
+        android:textSize="50sp"/>
+
+    <Button
+        android:layout_below="@+id/h3"
+        android:id="@+id/myplayer"
+        android:layout_width="100dp"
+        android:background="@drawable/musiclibrary"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        />
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subscription"
+        android:layout_below="@+id/myplayer"
+        android:textColor="@android:color/white"
+        android:id="@+id/h4"
+        android:textAlignment="center"
+        android:textSize="50sp"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/subscription"
+        android:textColor="@android:color/white"
+        android:background="@drawable/subscription"
+        android:layout_below="@+id/h4"/>
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="56dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="120dp"
+        android:textColor="@android:color/white"
+        android:text="Change Theme :"
+        android:checked="false"
+        android:textOff="OFF"
+        android:layout_below="@+id/subscription"
+        android:textOn="ON"/>
+
+</RelativeLayout>
